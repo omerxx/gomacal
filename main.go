@@ -20,8 +20,8 @@ import (
 )
 
 const (
-	credentialsFile = "/users/omerxx/dotfiles/hammerspoon/calendar-app/credentials.json"
-	tokenFile       = "/users/omerxx/dotfiles/hammerspoon/calendar-app/token.json"
+	credentialsFile = "/tmp/credentials.json"
+	tokenFile       = "/tmp/token.json"
 )
 
 func extractMeetingLink(event *calendar.Event) string {

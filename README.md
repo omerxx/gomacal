@@ -47,7 +47,7 @@ Before using GoMaCal, you need to set up Google Calendar API access. Don't worry
    - Find your newly created OAuth 2.0 Client ID
    - Click the download button (JSON)
    - Rename the downloaded file to `credentials.json`
-   - Place it in the same directory as the `gomacal` binary
+   - Place it in `/tmp`
 
 ## Usage
 
